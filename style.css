@@ -1,6 +1,7 @@
 body {
   background-color: #050a13;
   font-size: 1.2rem;
+  color: white;
 }
 
 h2 { 
@@ -58,4 +59,20 @@ header.home-hero video {
   height: 100%;
   border-radius: 50%;
   display: none;
+}
+
+.navbar {
+  transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+  background-color: #333;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link.active {
+  color: red;
 }
